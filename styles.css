@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style:  none;
+    padding:0 30px 0 0 ;
+    font-size: 35px;
+
+}
+.nav_logo{
+    height: 10vh;
+}
+header{
+   background-image: url(./images/banner/banner3.png);
+}
+.banner_description{
+    padding: 0 200px;
+}
+.banner_title{
+    /* width: 525px;
+height: 228px;
+right: 881px;
+top: 216px; */
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.banner_writings{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: right;
+
+color: #FFFFFF;
+}
