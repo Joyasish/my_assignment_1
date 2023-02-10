@@ -18,10 +18,11 @@ nav ul li{
 
 }
 .nav_logo{
-    height: 10vh;
+    height: 8vh;
 }
 header{
    background-image: url(./images/banner/banner3.png);
+   height:auto
 }
 .banner_description{
     padding: 0 200px;
@@ -31,7 +32,8 @@ header{
 height: 228px;
 right: 881px;
 top: 216px; */
-    
+    padding-bottom:50px ;
+    /* margin-bottom:200px ; */
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 700;
@@ -48,8 +50,70 @@ font-weight: 400;
 font-size: 16px;
 line-height: 26px;
 /* or 162% */
+padding-top: 50px;
+/* margin-bottom:10px */
 
 text-align: right;
 
 color: #FFFFFF;
 }
+.banner_button{
+    width: 160px;
+    height: 64px;
+    margin-left: 1325px;
+    padding-top: 50px;
+    padding-bottom: 220px;
+}
+.btn_Contact{
+    
+
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+color: #005FAC;
+}
+/* failure section styles start here */
+.failure_container{
+    
+}
+.failure_everything{
+    display: flex;
+     margin-left:  206px;
+     margin-top: 21px;
+}
+.failure_title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+    /* Dark 01 */
+    
+    color: #151414;
+}
+.failure_para {
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* Dark 02 */
+
+color: #444343;
+}
+.failure_list{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+}
+
