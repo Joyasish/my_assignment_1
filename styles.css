@@ -230,6 +230,30 @@ margin-left:64px ;
 height: 30vh;  */
     /* background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%)  ; */
     /* background-image: url(./images/banner/banner2.png); */
+/* positive mindset section styles end  here */
 
+/* footer section styles start  here  */
+/* .footer_contents{
+    background: #151414;
+    display: flex;
+    justify-content: center;
+width: 1600px;
+height: 577px;
+left: 0px;
+top: 2646.3px;
+background: #151414; } */
+
+footer{
+    background: #151414;
+     display: flex;
+} 
+
+/* Dark 01 */
+
+
+.footer_icons{
+    display: flex;
+    /* justify-content: center; */
+}
  
 
