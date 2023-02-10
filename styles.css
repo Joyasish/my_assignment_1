@@ -136,4 +136,100 @@ color: #444343;
 .failure_list:before{
     content: '✓';
 }
+/* failure section styles end here */
+/* plan section styles start here */
+.plans_title{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+text-align: center;
+
+/* Dark 01 */
+
+color: #151414;
+
+}
+.plans_title{
+    margin-top: 50px;
+}
+.four_plans{
+    display: flex;
+    justify-content: center;
+    /* width: 60%; */
+/* height: 60px; */
+align-items: center;
+margin-left: 100px;
+margin-top: 50px;
+gap: 200px ;
+}
+.plan_items{
+    mar
+}
+/* plan section styles end here */
+
+/* positive mindset section styles start here  */
+
+ .positive_mindset_container{
+      width: 100%;
+      height: 40vh;
+    /* display: flex ;
+    justify-content: center; */
+    /* margin-top: 124px;   */
+}
+.positive_mindset_contents{
+    margin-top: 124px; 
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 30vh;
+    /* width: 800px; */
+        background-image: url(./images/watch.png) , linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%) ;
+        background-size: cover;
+        background-blend-mode:overlay ;
+        border-radius: 8px;
+     }
+     .positive_mindset_writings{
+        width: 459px;
+height: 182px;
+margin-left:64px ;
+
+        padding-top: 80px;
+        /* row-gap: 50px; */
+     }
+     .positive_title{ 
+        font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #FFFFFF;;
+    }  
+    .btn_Call{
+        margin-top:  30px;
+        font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #F15B22;
+    }
+    /*  */
+
+/* .image_container{ */
+    background-image: url('./images/watch.png');
+}
+
+    
+/* width: 1140px;
+height: 30vh;  */
+    /* background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%)  ; */
+    /* background-image: url(./images/banner/banner2.png); */
+
+ 
 
