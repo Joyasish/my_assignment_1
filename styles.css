@@ -79,16 +79,28 @@ color: #005FAC;
 .failure_container{
     
 }
+.person_image{
+    margin-right: 130px;
+}
 .failure_everything{
     display: flex;
      margin-left:  206px;
-     margin-top: 21px;
+     margin-top: 131px;
+     margin-right: 357px;
 }
+.failure_description{
+    margin-top: 250px;
+    /* margin-bottom:50px ; */
+}
+
+
 .failure_title{
+    /* width: 50px */
+    margin-bottom: 50px;
     font-family: 'Work Sans';
     font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 900;
+    font-size: 50px;
     line-height: 47px;
     
     /* Dark 01 */
@@ -96,6 +108,8 @@ color: #005FAC;
     color: #151414;
 }
 .failure_para {
+    width: 416px;
+height: 104px;
     font-family: 'Work Sans';
 font-style: normal;
 font-weight: 400;
@@ -115,5 +129,11 @@ color: #444343;
     font-size: 16px;
     line-height: 26px;
     list-style: none;
+    /* background:url('./images/check.png') left  no-repeat ; */
+    /* list-style-image: url(./images/icons/youtube.png); */
+    /* list-style position:centr */
+}
+.failure_list:before{
+    content: '✓';
 }
 
